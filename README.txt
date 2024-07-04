@@ -45,5 +45,19 @@ there must be nothing in the staged area after a commit.
 
 14.'git diff'-> gives the difference of all file changes between two commits.
 
-15.'git commit -m "this is my fifth commit"->if you want to avoid opening a text editor like add commit message we
-use this following command. 
+15.'git commit -m "your commit message"->if you want to avoid opening a text editor like add commit message we
+use this following command.
+
+16. 'git remote'->lists down all remote connections.
+
+17. Remote connections->helps us to link two git repositories for uploading and downolading 
+changes from each other.
+
+18.'git remote add <name of remote> <link of remote>'-> this command is to add a new link to the 
+remote repo and give it a name.
+
+19.'git remote re <name of remote>'->this is to delete a remoteconnection.
+
+20.'git remote rename <oldname> <newname>'-> this command renames a remote connection.
+
+note: the name of the remote connections is always used to establish communications between repos.
