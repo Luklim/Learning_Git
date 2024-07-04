@@ -24,13 +24,13 @@ the files in the area,git already manages them and knows their version history.
 7.'commit'-> commit is a particular version of the project.It caputres a snapshot of the project'seestaged changes
 and creates a version out of it.
 
-8.'git commit'->registers staging changes to commit.
+8.'git commit'->registers staging changes to commit.A version  is created.
 
 9.'git log' ->lists down all commits of th repo.If you want to exit out of git log prompt 
 press 'q'. 
 
-10.'git restore'-> it removes all filechnages done to the staging area from the previous commit.
-This can we be useful ,if youn did some dirty piece of code and now no more wants it .Instead of deleting every changes
+10.'git restore'-> it removes all file from the staging area to be committed.
+This can we be useful ,if you did some dirty piece of code and now no more wants it .Instead of deleting every changes
 line by line, we can restore it or you can say restore last clean version of the file.
 
 11.All the changes doneafter the last commit are still in the working area, so to take the chanegs to the staging area ,
@@ -38,3 +38,7 @@ git add README.txt
 
 12.'git restore --staged README.txt'-> removes the area that was previously added to staged area back to the working area.
 This only works if changes are in staging  area.
+
+13.Difference between rm and restore :If we want to move the whole file back to the untracked state, the we do git rm, 
+otherwise id we just want the changes to be moved in working area or staging area then we do git restore.To use git rm,
+there must be nothing in the staged area after a commit.
