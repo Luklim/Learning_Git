@@ -76,3 +76,5 @@ note: the name of the remote connections is always used to establish communicati
 -git push
 
 25. merge confilcts can occur if multiple people try to make changes to the same file in collaboration.
+
+26. 'git stash' suppose say we wish to no commit a file but also not delete it, except for that file we wish to commit all other file in the folder as soon as adding the file "git add <filename>" use the command git stash.Ther must be an initial commit though.
