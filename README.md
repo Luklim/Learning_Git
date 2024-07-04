@@ -65,3 +65,4 @@ note: the name of the remote connections is always used to establish communicati
 21. 'git add <file1> <file2> <file3>' : this command will add multiple file changes together in the staging area.
 
 22. 'git add . ' -> this command will add all files from working repo to staging area.
+    (I made this changes through github).
