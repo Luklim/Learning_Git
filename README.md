@@ -77,4 +77,10 @@ note: the name of the remote connections is always used to establish communicati
 
 25. merge confilcts can occur if multiple people try to make changes to the same file in collaboration.
 
-26. 'git stash' suppose say we wish to no commit a file but also not delete it, except for that file we wish to commit all other file in the folder as soon as adding the file "git add <filename>" use the command git stash.Ther must be an initial commit though.
+26. 'git stash'-> suppose say we wish to no commit a file but also not delete it, except for that file we wish to commit all other file in the folder as soon as adding the file "git add <filename>" use the command git stash.Ther must be an initial commit though. Stashed files is not visible in git status.
+
+27. 'git list'-> gives the stashed file.
+
+28. 'git stash apply' ->bring the stash back. Whatever is the last stash will be unstashed.
+
+29. 'git stash show stash@{1}' -> shows the contents of the 1st stash.
