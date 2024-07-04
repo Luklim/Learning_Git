@@ -37,3 +37,4 @@ line by line, we can restore it or you can say restore last clean version of the
 git add README.txt
 
 12.'git restore --staged README.txt'-> removes the area that was previously added to staged area back to the working area.
+This only works if changes are in staging  area.
