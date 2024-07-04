@@ -68,9 +68,11 @@ note: the name of the remote connections is always used to establish communicati
 
 23. 'git pull <remote name> <branch name>' : downloads latest changes from the branch of the mentioned remote to my local repo. [here local: PC from github]
 
-Recommended Paractice to do:
+24. Recommended Paractice to do:
 -make changes 
 -git add <files>
 -git commit
 -git pull
 -git push
+
+25. merge confilcts can occur if multiple people try to make changes to the same file in collaboration.
