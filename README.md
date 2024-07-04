@@ -67,3 +67,10 @@ note: the name of the remote connections is always used to establish communicati
 22. 'git add . ' -> this command will add all files from working repo to staging area.In current folder, add all of the files to the staging area.
 
 23. 'git pull <remote name> <branch name>' : downloads latest changes from the branch of the mentioned remote to my local repo. [here local: PC from github]
+
+Recommended Paractice to do:
+-make changes 
+-git add <files>
+-git commit
+-git pull
+-git push
