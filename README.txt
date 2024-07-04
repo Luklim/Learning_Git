@@ -25,3 +25,15 @@ the files in the area,git already manages them and knows their version history.
 and creates a version out of it.
 
 8.'git commit'->registers staging changes to commit.
+
+9.'git log' ->lists down all commits of th repo.If you want to exit out of git log prompt 
+press 'q'. 
+
+10.'git restore'-> it removes all filechnages done to the staging area from the previous commit.
+This can we be useful ,if youn did some dirty piece of code and now no more wants it .Instead of deleting every changes
+line by line, we can restore it or you can say restore last clean version of the file.
+
+11.All the changes doneafter the last commit are still in the working area, so to take the chanegs to the staging area ,
+git add README.txt
+
+12.'git restore --staged README.txt'-> removes the area that was previously added to staged area back to the working area.
