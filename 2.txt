@@ -1,0 +1,5 @@
+I think the Ideas if Git tack files and their location.If a folder is 
+already committed, git will tack it all the time unless uou untrack it .
+just git status to check tracked files. Now suppose, we have a remote commection
+to a repo git remote -v check the url to the repo. If it is connected, I can just
+make modifications and push it there.
